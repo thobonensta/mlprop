@@ -1,0 +1,218 @@
+2025-04-05 10:19:17.873 | INFO     | __main__:<module>:122 - Namespace(n_epochs=40, batch_size=8, lr=0.001, b1=0.9, b2=0.999, eps=1e-08, factor=0.7, thresh=0.01, patience=2, kernelD=5, kernelU=2, dilation_rate=12, diffI=True, dropoutP=0.5)
+2025-04-05 10:19:17.873 | INFO     | __main__:<module>:125 - Model initialisation
+2025-04-05 10:19:18.047 | INFO     | __main__:<module>:138 - Data loading
+2025-04-05 10:19:18.206 | INFO     | __main__:<module>:182 - learning rate = 0.001
+2025-04-05 10:19:18.222 | INFO     | __main__:<module>:211 - training epoch 1 of 40
+2025-04-05 10:20:00.428 | INFO     | __main__:train:52 - Train Epoch: 0	Loss: 3.64785420
+2025-04-05 10:20:00.428 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:20:03.172 | INFO     | __main__:test:72 - Test set: loss: 1.25139940
+
+2025-04-05 10:20:03.200 | INFO     | __main__:<module>:211 - training epoch 2 of 40
+2025-04-05 10:20:40.895 | INFO     | __main__:train:52 - Train Epoch: 1	Loss: 1.24514401
+2025-04-05 10:20:40.903 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:20:43.634 | INFO     | __main__:test:72 - Test set: loss: 0.80513574
+
+2025-04-05 10:20:43.745 | INFO     | __main__:<module>:233 - Model saved at epoch 1
+2025-04-05 10:20:43.745 | INFO     | __main__:<module>:211 - training epoch 3 of 40
+2025-04-05 10:21:21.829 | INFO     | __main__:train:52 - Train Epoch: 2	Loss: 1.09308862
+2025-04-05 10:21:21.829 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:21:24.603 | INFO     | __main__:test:72 - Test set: loss: 1.10737777
+
+2025-04-05 10:21:24.603 | INFO     | __main__:<module>:211 - training epoch 4 of 40
+2025-04-05 10:22:02.918 | INFO     | __main__:train:52 - Train Epoch: 3	Loss: 0.98816745
+2025-04-05 10:22:02.933 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:22:06.028 | INFO     | __main__:test:72 - Test set: loss: 0.63842358
+
+2025-04-05 10:22:06.145 | INFO     | __main__:<module>:233 - Model saved at epoch 3
+2025-04-05 10:22:06.145 | INFO     | __main__:<module>:211 - training epoch 5 of 40
+2025-04-05 10:22:44.860 | INFO     | __main__:train:52 - Train Epoch: 4	Loss: 0.92392849
+2025-04-05 10:22:44.871 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:22:47.603 | INFO     | __main__:test:72 - Test set: loss: 0.61411398
+
+2025-04-05 10:22:47.729 | INFO     | __main__:<module>:233 - Model saved at epoch 4
+2025-04-05 10:22:47.729 | INFO     | __main__:<module>:211 - training epoch 6 of 40
+2025-04-05 10:23:27.316 | INFO     | __main__:train:52 - Train Epoch: 5	Loss: 0.87598215
+2025-04-05 10:23:27.332 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:23:30.284 | INFO     | __main__:test:72 - Test set: loss: 0.69071896
+
+2025-04-05 10:23:30.295 | INFO     | __main__:<module>:211 - training epoch 7 of 40
+2025-04-05 10:24:12.860 | INFO     | __main__:train:52 - Train Epoch: 6	Loss: 0.85311081
+2025-04-05 10:24:12.875 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:24:16.123 | INFO     | __main__:test:72 - Test set: loss: 0.49259237
+
+2025-04-05 10:24:16.232 | INFO     | __main__:<module>:233 - Model saved at epoch 6
+2025-04-05 10:24:16.232 | INFO     | __main__:<module>:211 - training epoch 8 of 40
+2025-04-05 10:24:59.358 | INFO     | __main__:train:52 - Train Epoch: 7	Loss: 0.79457879
+2025-04-05 10:24:59.374 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:25:02.414 | INFO     | __main__:test:72 - Test set: loss: 0.53167244
+
+2025-04-05 10:25:02.429 | INFO     | __main__:<module>:211 - training epoch 9 of 40
+2025-04-05 10:25:42.479 | INFO     | __main__:train:52 - Train Epoch: 8	Loss: 0.77839655
+2025-04-05 10:25:42.495 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:25:45.367 | INFO     | __main__:test:72 - Test set: loss: 0.55632859
+
+2025-04-05 10:25:45.383 | INFO     | __main__:<module>:211 - training epoch 10 of 40
+2025-04-05 10:26:25.661 | INFO     | __main__:train:52 - Train Epoch: 9	Loss: 0.69236634
+2025-04-05 10:26:25.661 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:26:28.798 | INFO     | __main__:test:72 - Test set: loss: 0.52758159
+
+2025-04-05 10:26:28.798 | INFO     | __main__:<module>:211 - training epoch 11 of 40
+2025-04-05 10:27:09.850 | INFO     | __main__:train:52 - Train Epoch: 10	Loss: 0.61899000
+2025-04-05 10:27:09.850 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:27:12.976 | INFO     | __main__:test:72 - Test set: loss: 0.65526369
+
+2025-04-05 10:27:12.980 | INFO     | __main__:<module>:211 - training epoch 12 of 40
+2025-04-05 10:27:54.321 | INFO     | __main__:train:52 - Train Epoch: 11	Loss: 0.60419257
+2025-04-05 10:27:54.321 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:27:57.426 | INFO     | __main__:test:72 - Test set: loss: 0.40828680
+
+2025-04-05 10:27:57.553 | INFO     | __main__:<module>:233 - Model saved at epoch 11
+2025-04-05 10:27:57.553 | INFO     | __main__:<module>:211 - training epoch 13 of 40
+2025-04-05 10:28:41.086 | INFO     | __main__:train:52 - Train Epoch: 12	Loss: 0.58430218
+2025-04-05 10:28:41.086 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:28:44.208 | INFO     | __main__:test:72 - Test set: loss: 0.65392233
+
+2025-04-05 10:28:44.208 | INFO     | __main__:<module>:211 - training epoch 14 of 40
+2025-04-05 10:29:28.270 | INFO     | __main__:train:52 - Train Epoch: 13	Loss: 0.54823238
+2025-04-05 10:29:28.270 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:29:31.389 | INFO     | __main__:test:72 - Test set: loss: 0.53830930
+
+2025-04-05 10:29:31.389 | INFO     | __main__:<module>:211 - training epoch 15 of 40
+2025-04-05 10:30:16.026 | INFO     | __main__:train:52 - Train Epoch: 14	Loss: 0.52966308
+2025-04-05 10:30:16.034 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:30:19.093 | INFO     | __main__:test:72 - Test set: loss: 0.39572401
+
+2025-04-05 10:30:19.235 | INFO     | __main__:<module>:233 - Model saved at epoch 14
+2025-04-05 10:30:19.235 | INFO     | __main__:<module>:211 - training epoch 16 of 40
+2025-04-05 10:31:02.157 | INFO     | __main__:train:52 - Train Epoch: 15	Loss: 0.51495204
+2025-04-05 10:31:02.173 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:31:05.304 | INFO     | __main__:test:72 - Test set: loss: 0.45778345
+
+2025-04-05 10:31:05.306 | INFO     | __main__:<module>:211 - training epoch 17 of 40
+2025-04-05 10:31:48.716 | INFO     | __main__:train:52 - Train Epoch: 16	Loss: 0.49373505
+2025-04-05 10:31:48.716 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:31:51.852 | INFO     | __main__:test:72 - Test set: loss: 0.38908267
+
+2025-04-05 10:31:51.963 | INFO     | __main__:<module>:233 - Model saved at epoch 16
+2025-04-05 10:31:51.963 | INFO     | __main__:<module>:211 - training epoch 18 of 40
+2025-04-05 10:32:33.450 | INFO     | __main__:train:52 - Train Epoch: 17	Loss: 0.49090593
+2025-04-05 10:32:33.466 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:32:36.733 | INFO     | __main__:test:72 - Test set: loss: 0.74719132
+
+2025-04-05 10:32:36.733 | INFO     | __main__:<module>:211 - training epoch 19 of 40
+2025-04-05 10:33:17.571 | INFO     | __main__:train:52 - Train Epoch: 18	Loss: 0.49871834
+2025-04-05 10:33:17.584 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:33:20.659 | INFO     | __main__:test:72 - Test set: loss: 0.35955807
+
+2025-04-05 10:33:20.785 | INFO     | __main__:<module>:233 - Model saved at epoch 18
+2025-04-05 10:33:20.785 | INFO     | __main__:<module>:211 - training epoch 20 of 40
+2025-04-05 10:34:00.629 | INFO     | __main__:train:52 - Train Epoch: 19	Loss: 0.49515673
+2025-04-05 10:34:00.645 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:34:03.547 | INFO     | __main__:test:72 - Test set: loss: 0.33083950
+
+2025-04-05 10:34:03.657 | INFO     | __main__:<module>:233 - Model saved at epoch 19
+2025-04-05 10:34:03.657 | INFO     | __main__:<module>:211 - training epoch 21 of 40
+2025-04-05 10:34:44.271 | INFO     | __main__:train:52 - Train Epoch: 20	Loss: 0.44635068
+2025-04-05 10:34:44.271 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:34:47.422 | INFO     | __main__:test:72 - Test set: loss: 0.44971385
+
+2025-04-05 10:34:47.431 | INFO     | __main__:<module>:211 - training epoch 22 of 40
+2025-04-05 10:35:27.899 | INFO     | __main__:train:52 - Train Epoch: 21	Loss: 0.48447207
+2025-04-05 10:35:27.910 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:35:31.261 | INFO     | __main__:test:72 - Test set: loss: 0.50588935
+
+2025-04-05 10:35:31.261 | INFO     | __main__:<module>:211 - training epoch 23 of 40
+2025-04-05 10:36:12.694 | INFO     | __main__:train:52 - Train Epoch: 22	Loss: 0.46541650
+2025-04-05 10:36:12.694 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:36:16.162 | INFO     | __main__:test:72 - Test set: loss: 0.34609106
+
+2025-04-05 10:36:16.162 | INFO     | __main__:<module>:211 - training epoch 24 of 40
+2025-04-05 10:36:59.168 | INFO     | __main__:train:52 - Train Epoch: 23	Loss: 0.42459975
+2025-04-05 10:36:59.168 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:37:01.985 | INFO     | __main__:test:72 - Test set: loss: 0.38459671
+
+2025-04-05 10:37:01.986 | INFO     | __main__:<module>:211 - training epoch 25 of 40
+2025-04-05 10:37:43.003 | INFO     | __main__:train:52 - Train Epoch: 24	Loss: 0.42130167
+2025-04-05 10:37:43.003 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:37:46.248 | INFO     | __main__:test:72 - Test set: loss: 0.38816699
+
+2025-04-05 10:37:46.260 | INFO     | __main__:<module>:211 - training epoch 26 of 40
+2025-04-05 10:38:26.474 | INFO     | __main__:train:52 - Train Epoch: 25	Loss: 0.38986441
+2025-04-05 10:38:26.474 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:38:29.405 | INFO     | __main__:test:72 - Test set: loss: 0.31311005
+
+2025-04-05 10:38:29.547 | INFO     | __main__:<module>:233 - Model saved at epoch 25
+2025-04-05 10:38:29.547 | INFO     | __main__:<module>:211 - training epoch 27 of 40
+2025-04-05 10:39:09.891 | INFO     | __main__:train:52 - Train Epoch: 26	Loss: 0.39550042
+2025-04-05 10:39:09.893 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:39:13.183 | INFO     | __main__:test:72 - Test set: loss: 0.31228165
+
+2025-04-05 10:39:13.294 | INFO     | __main__:<module>:233 - Model saved at epoch 26
+2025-04-05 10:39:13.294 | INFO     | __main__:<module>:211 - training epoch 28 of 40
+2025-04-05 10:39:55.073 | INFO     | __main__:train:52 - Train Epoch: 27	Loss: 0.38178508
+2025-04-05 10:39:55.073 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:39:58.168 | INFO     | __main__:test:72 - Test set: loss: 0.40115477
+
+2025-04-05 10:39:58.175 | INFO     | __main__:<module>:211 - training epoch 29 of 40
+2025-04-05 10:40:39.356 | INFO     | __main__:train:52 - Train Epoch: 28	Loss: 0.38707582
+2025-04-05 10:40:39.373 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:40:42.288 | INFO     | __main__:test:72 - Test set: loss: 0.26654381
+
+2025-04-05 10:40:42.398 | INFO     | __main__:<module>:233 - Model saved at epoch 28
+2025-04-05 10:40:42.398 | INFO     | __main__:<module>:211 - training epoch 30 of 40
+2025-04-05 10:41:23.961 | INFO     | __main__:train:52 - Train Epoch: 29	Loss: 0.39521294
+2025-04-05 10:41:23.970 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:41:26.964 | INFO     | __main__:test:72 - Test set: loss: 0.41224377
+
+2025-04-05 10:41:26.974 | INFO     | __main__:<module>:211 - training epoch 31 of 40
+2025-04-05 10:42:08.309 | INFO     | __main__:train:52 - Train Epoch: 30	Loss: 0.37344597
+2025-04-05 10:42:08.318 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:42:11.319 | INFO     | __main__:test:72 - Test set: loss: 0.30565375
+
+2025-04-05 10:42:11.323 | INFO     | __main__:<module>:211 - training epoch 32 of 40
+2025-04-05 10:42:52.889 | INFO     | __main__:train:52 - Train Epoch: 31	Loss: 0.38406596
+2025-04-05 10:42:52.904 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:42:56.092 | INFO     | __main__:test:72 - Test set: loss: 0.28501268
+
+2025-04-05 10:42:56.097 | INFO     | __main__:<module>:211 - training epoch 33 of 40
+2025-04-05 10:43:38.089 | INFO     | __main__:train:52 - Train Epoch: 32	Loss: 0.35489008
+2025-04-05 10:43:38.106 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:43:41.198 | INFO     | __main__:test:72 - Test set: loss: 0.24872689
+
+2025-04-05 10:43:41.294 | INFO     | __main__:<module>:233 - Model saved at epoch 32
+2025-04-05 10:43:41.294 | INFO     | __main__:<module>:211 - training epoch 34 of 40
+2025-04-05 10:44:23.990 | INFO     | __main__:train:52 - Train Epoch: 33	Loss: 0.35311181
+2025-04-05 10:44:24.008 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:44:27.143 | INFO     | __main__:test:72 - Test set: loss: 0.34878037
+
+2025-04-05 10:44:27.143 | INFO     | __main__:<module>:211 - training epoch 35 of 40
+2025-04-05 10:45:09.999 | INFO     | __main__:train:52 - Train Epoch: 34	Loss: 0.35366959
+2025-04-05 10:45:09.999 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:45:13.102 | INFO     | __main__:test:72 - Test set: loss: 0.31912501
+
+2025-04-05 10:45:13.112 | INFO     | __main__:<module>:211 - training epoch 36 of 40
+2025-04-05 10:45:57.079 | INFO     | __main__:train:52 - Train Epoch: 35	Loss: 0.33354448
+2025-04-05 10:45:57.079 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:46:00.058 | INFO     | __main__:test:72 - Test set: loss: 0.41367347
+
+2025-04-05 10:46:00.468 | INFO     | __main__:<module>:211 - training epoch 37 of 40
+2025-04-05 10:46:43.418 | INFO     | __main__:train:52 - Train Epoch: 36	Loss: 0.29635956
+2025-04-05 10:46:43.423 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:46:46.507 | INFO     | __main__:test:72 - Test set: loss: 0.20602362
+
+2025-04-05 10:46:46.635 | INFO     | __main__:<module>:233 - Model saved at epoch 36
+2025-04-05 10:46:46.635 | INFO     | __main__:<module>:211 - training epoch 38 of 40
+2025-04-05 10:47:30.285 | INFO     | __main__:train:52 - Train Epoch: 37	Loss: 0.29863996
+2025-04-05 10:47:30.285 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:47:33.679 | INFO     | __main__:test:72 - Test set: loss: 0.38881963
+
+2025-04-05 10:47:33.679 | INFO     | __main__:<module>:211 - training epoch 39 of 40
+2025-04-05 10:48:17.182 | INFO     | __main__:train:52 - Train Epoch: 38	Loss: 0.29961004
+2025-04-05 10:48:17.182 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:48:20.286 | INFO     | __main__:test:72 - Test set: loss: 0.43799088
+
+2025-04-05 10:48:20.298 | INFO     | __main__:<module>:211 - training epoch 40 of 40
+2025-04-05 10:49:03.735 | INFO     | __main__:train:52 - Train Epoch: 39	Loss: 0.29908485
+2025-04-05 10:49:03.735 | INFO     | __main__:<module>:217 - Testing
+2025-04-05 10:49:06.920 | INFO     | __main__:test:72 - Test set: loss: 0.31023934
+
