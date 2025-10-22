@@ -24,8 +24,16 @@ def model_relief(x0,Nx,dx,dz,xterrain,zterrain):
 
 if __name__ == '__main__':
     import matplotlib
-    matplotlib.use('MACOSX')
-    import matplotlib.pyplot as plt
+
+    for backend in ['Qt5Agg', 'TkAgg', 'MacOSX', 'Agg']:
+        try:
+            matplotlib.use(backend, force=True)
+            import matplotlib.pyplot as plt
+
+            print(f"Using backend: {matplotlib.get_backend()}")
+            break
+        except Exception as e:
+            print(f"Failed to use backend {backend}: {e}")
 
     # Model a triangle obstacle between 5000 and 7000m with a peak altitude of 500m
     xterrain = [0, 5000, 6000, 7000, 10000]

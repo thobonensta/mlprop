@@ -3,8 +3,14 @@ import time
 import numpy as np
 import torch
 import matplotlib
-matplotlib.use('MACOSX')
-import matplotlib.pyplot as plt
+for backend in ['Qt5Agg', 'TkAgg', 'MacOSX', 'Agg']:
+    try:
+        matplotlib.use(backend, force=True)
+        import matplotlib.pyplot as plt
+        print(f"Using backend: {matplotlib.get_backend()}")
+        break
+    except Exception as e:
+        print(f"Failed to use backend {backend}: {e}")
 from aiModel.aiModel import build_unet
 
 # losses definition
